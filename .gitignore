@@ -1,0 +1,8 @@
+*.swp
+*.pyc
+*.txt
+*.npz
+*.pkl
+*.bak
+*.nfs*
+*.ipynb_checkpoints*
