@@ -24,12 +24,12 @@ If you use this code as part of any published research, please acknowledge the
 following papers:
 
 **"Action Recognition using Visual Attention."**  
-Shikhar Sharma, Ryan Kiros, Ruslan Salakhutdinov. *[arXiv](blank)*
+Shikhar Sharma, Ryan Kiros, Ruslan Salakhutdinov. *[arXiv](http://arxiv.org/abs/1511.04119)*
 
     @article{sharma2015attention,
         title={Action Recognition using Visual Attention},
         author={Sharma, Shikhar and Kiros, Ryan and Salakhutdinov, Ruslan},
-        journal={arXiv preprint arXiv:blank},
+        journal={arXiv preprint arXiv:1511.04119},
         year={2015}
     } 
 
