@@ -46,7 +46,7 @@ Salakhutdinov, Richard Zemel, Yoshua Bengio. *To appear ICML (2015)*
 
 ## License
 This repsoitory is released under a [revised (3-clause) BSD License](http://directory.fsf.org/wiki/License:BSD_3Clause). It 
-is the implementation for our paper [Action Recognition using Visual Attention](blank). The repository uses some code from the project 
+is the implementation for our paper [Action Recognition using Visual Attention](http://arxiv.org/abs/1511.04119). The repository uses some code from the project 
 [arctic-caption](https://github.com/kelvinxu/arctic-captions) which is originally the implementation for the paper 
 [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](http://arxiv.org/abs/1502.03044) and is also licensed 
 under a [revised (3-clause) BSD License](http://directory.fsf.org/wiki/License:BSD_3Clause).
