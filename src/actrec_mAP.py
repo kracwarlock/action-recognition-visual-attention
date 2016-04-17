@@ -809,7 +809,7 @@ def train(dim_out=100, # hidden layer dim for outputs
 
                 history_errs.append([valid_err, test_err])
 
-                if uidx == 0 or test_err >= numpy.array(history_errs)[:,0].max():
+                if uidx == 0 or valid_err >= numpy.array(history_errs)[:,0].max():
                     best_p = unzip(tparams) # p for min valid err / max valid acc
 
                 print 'mAP: Train', train_err, 'Valid', valid_err, 'Test', test_err
@@ -842,7 +842,7 @@ def train(dim_out=100, # hidden layer dim for outputs
             
         history_errs.append([valid_err, test_err])
 
-        if epochidx == 0 or test_err >= numpy.array(history_errs)[:,0].max():
+        if epochidx == 0 or valid_err >= numpy.array(history_errs)[:,0].max():
             best_p = unzip(tparams) # p for min valid err / max valid acc
 
         print 'mAP: Train', train_err, 'Valid', valid_err, 'Test', test_err
