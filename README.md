@@ -18,6 +18,10 @@ attention depending on the scene and the action being performed.
 * [Theano](http://www.deeplearning.net/software/theano/)
 * [h5py](http://docs.h5py.org/en/latest/)
 
+## Input data format
+
+This is provided in [util/README.md](https://github.com/kracwarlock/action-recognition-visual-attention/blob/master/util/README.md)
+
 ## Reference
 
 If you use this code as part of any published research, please acknowledge the
